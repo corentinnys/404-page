@@ -1,0 +1,82 @@
+
+h1{
+    font-size: 4em;
+    color: red;
+    padding:0;
+
+}
+
+.center{
+    text-align: center
+}
+.bg-black{
+    background: gray;
+    color: white;
+}
+.p-10{
+    padding: 10px
+}
+
+.bg-gray{
+    background: darkslategray;
+}
+.color-white{
+    color: white;
+}
+main h3{
+    font-size: 3rem;
+    color: red;
+}
+.medieval-font{
+    font-family: 'MedievalSharp', cursive;
+}
+.position-relative{
+    position: relative;
+}
+
+.position-absolute{
+    position: absolute;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    left: 250px;
+    bottom: 30px;
+}
+nav>ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+    padding: 0;
+
+}
+nav>ul>li>a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    transition: all 1s ease-in-out;
+    font-size: 1.5rem;
+
+}
+nav>ul>li>a:hover{
+ color: red;
+}
+a:not(nav>ul>li>a){
+    border: 1px solid white;
+    width: 100px;
+    padding: 5px;
+    display:block;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 45%;
+    background: darkred;
+    border-radius: 15px;
+    transition: ease-in-out  all 1s;
+}
+a:not(nav>ul>li>a):hover{
+    background: blue;
+}
